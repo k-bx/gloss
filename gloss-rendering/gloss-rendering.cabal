@@ -27,13 +27,12 @@ library
         Graphics.Gloss.Internals.Rendering.Picture
         Graphics.Gloss.Internals.Rendering.State
 
-  build-depends:       
-        base
-        containers
-        bytestring
-        OpenGL
-        GLUT
-        bmp
+  build-depends: GLUT
+               , OpenGL
+               , base
+               , bmp
+               , bytestring
+               , containers
 
   ghc-options:
         -Wall -O2

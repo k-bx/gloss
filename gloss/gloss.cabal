@@ -36,15 +36,14 @@ Flag ExplicitBackend
   Default:     False
 
 Library
-  Build-Depends: 
-        base
-        ghc-prim
-        containers
-        bytestring
-        OpenGL
-        GLUT
-        bmp
-        gloss-rendering
+  Build-Depends: GLUT
+               , OpenGL
+               , base
+               , bmp
+               , bytestring
+               , containers
+               , ghc-prim
+               , gloss-rendering
 
   ghc-options:
         -O2 -Wall
