@@ -28,12 +28,12 @@ library
         Graphics.Gloss.Internals.Rendering.State
 
   build-depends:       
-        base       == 4.8.*,
-        containers == 0.5.*,
-        bytestring == 0.10.*,
-        OpenGL     == 2.12.*,
-        GLUT       == 2.7.*,
-        bmp        == 1.2.*
+        base
+        containers
+        bytestring
+        OpenGL
+        GLUT
+        bmp
 
   ghc-options:
         -Wall -O2
